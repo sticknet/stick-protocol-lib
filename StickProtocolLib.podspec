@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "StickProtocolLib"
-  spec.version      = "1.2.8"
+  spec.version      = "1.2.9"
   spec.summary      = "End-to-End Encryption Protocol Tailored For Social Network Platforms"
   spec.swift_version = "5.0"
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.0"
 
 
-  spec.source       = { :git => "https://github.com/sticknet/stick-protocol-lib.git", :tag => "1.2.8" }
+  spec.source       = { :git => "https://github.com/sticknet/stick-protocol-lib.git", :tag => "1.2.9" }
 
   spec.source_files        = "StickProtocol/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
