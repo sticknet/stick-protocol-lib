@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'SignalArgon2'
   spec.dependency 'StickySignalProtocolC', '~> 1.0.0'
   spec.dependency 'SimpleKeychain'
-  spec.dependency 'SQLCipher', ">= 4.0.1"
+  spec.dependency 'SQLCipher', "~> 4.0.1"
   spec.dependency 'YapDatabase/SQLCipher'
 
  
