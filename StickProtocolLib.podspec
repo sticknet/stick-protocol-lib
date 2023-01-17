@@ -33,10 +33,9 @@ Pod::Spec.new do |spec|
   spec.dependency 'CryptoSwift'
   spec.dependency 'SignalArgon2'
   spec.dependency 'StickySignalProtocolC', '~> 1.0.0'
-  spec.dependency 'SimpleKeychain', :modular_headers => true
-  spec.dependency 'SQLCipher', ">= 4.0.1", :modular_headers => true
-  spec.dependency 'YapDatabase/SQLCipher', :git => 'https://github.com/signalapp/YapDatabase.git', branch: 'signal-release', :modular_headers => true
-  spec.dependency 'Mantle', :modular_headers => true
+  spec.dependency 'SimpleKeychain'
+  spec.dependency 'SQLCipher', ">= 4.0.1"
+  spec.dependency 'YapDatabase/SQLCipher', :git => 'https://github.com/signalapp/YapDatabase.git', branch: 'signal-release'
 
  
 
