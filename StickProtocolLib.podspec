@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "StickProtocolLib"
-  spec.version      = "1.2.7"
+  spec.version      = "1.2.8"
   spec.summary      = "End-to-End Encryption Protocol Tailored For Social Network Platforms"
   spec.swift_version = "5.0"
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.0"
 
 
-  spec.source       = { :git => "https://github.com/sticknet/stick-protocol-lib.git", :tag => "1.2.7" }
+  spec.source       = { :git => "https://github.com/sticknet/stick-protocol-lib.git", :tag => "1.2.8" }
 
   spec.source_files        = "StickProtocol/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
@@ -33,6 +33,10 @@ Pod::Spec.new do |spec|
   spec.dependency 'CryptoSwift'
   spec.dependency 'SignalArgon2'
   spec.dependency 'StickySignalProtocolC', '~> 1.0.0'
+  spec.dependency 'SimpleKeychain', :modular_headers => true
+  spec.dependency 'SQLCipher', ">= 4.0.1", :modular_headers => true
+  spec.dependency 'YapDatabase/SQLCipher', :git => 'https://github.com/signalapp/YapDatabase.git', branch: 'signal-release', :modular_headers => true
+  spec.dependency 'Mantle', :modular_headers => true
 
  
 
