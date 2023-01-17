@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
 
 
-  spec.name         = "StickProtocol"
-  spec.version      = "1.2.3"
+  spec.name         = "StickProtocolLib"
+  spec.version      = "1.2.5"
   spec.summary      = "End-to-End Encryption Protocol Tailored For Social Network Platforms"
   spec.swift_version = "5.0"
 
@@ -20,12 +20,11 @@ Pod::Spec.new do |spec|
  
 
   spec.ios.deployment_target = "12.0"
-  spec.ios.vendored_frameworks = "StickProtocol.framework"
 
 
-  spec.source       = { :http => "https://dl.dropboxusercontent.com/s/c6xiws1ans9u8v7/StickProtocol.zip?dl=0" }
+  spec.source       = { :git => "https://github.com/sticknet/stick-protocol-lib.git", :tag => "v1.2.5" }
 
-
+  spec.source_files        = "StickProtocol/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
