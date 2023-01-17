@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.0"
 
 
-  spec.source       = { :git => "https://github.com/sticknet/stick-protocol-lib.git", :tag => "v1.2.5" }
+  spec.source       = { :git => "https://github.com/sticknet/stick-protocol-lib.git", :tag => "1.2.5" }
 
   spec.source_files        = "StickProtocol/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
