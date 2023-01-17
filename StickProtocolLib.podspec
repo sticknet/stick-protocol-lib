@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "StickProtocolLib"
-  spec.version      = "1.2.5"
+  spec.version      = "1.2.6"
   spec.summary      = "End-to-End Encryption Protocol Tailored For Social Network Platforms"
   spec.swift_version = "5.0"
 
@@ -27,8 +27,8 @@ Pod::Spec.new do |spec|
   spec.source_files        = "StickProtocol/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   spec.dependency 'CryptoSwift'
   spec.dependency 'SignalArgon2'
